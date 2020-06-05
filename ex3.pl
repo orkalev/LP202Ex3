@@ -9,7 +9,7 @@ user:file_search_path(sat, '/home/os202/Desktop/LP/ass3/satsolver').
 %Output : Unifies List with a list oa as many assignment constaints possible.
 %
 %Exmpele: 
-%?- Instance = sudoku(2, [cell(1,1) = 1, cell(2,3) = 2,
+%?-Instance = sudoku(2, [cell(1,1) = 1, cell(2,3) = 2,
 %						cell(3,2) = 4, cell(3,4) = 3] ),
 %						sudoku_propagate(Instance, List).
 %
@@ -17,7 +17,7 @@ user:file_search_path(sat, '/home/os202/Desktop/LP/ass3/satsolver').
 %cell(2,1)=4, cell(2,4)=1, cell(3,1)=2, cell(3,3)=1,
 %cell(4,1)=3, cell(4,2)=1, cell(4,3)=4, cell(4,4)=2 ]
 %
-%?- Instance = sudoku(3, [ cell(1,1) = 1, cell(4,1) = 5, cell(6,1) = 3,
+%?-Instance = sudoku(3, [ cell(1,1) = 1, cell(4,1) = 5, cell(6,1) = 3,
 %						cell(8,1) = 9, cell(1,2) = 3, cell(6,2) = 8,
 %						cell(1,3) = 9, cell(4,3) = 4, cell(5,3) = 6,
 %						cell(6,3) = 7, cell(3,4) = 9, cell(7,4) = 6,
